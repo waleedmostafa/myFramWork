@@ -1,0 +1,31 @@
+{
+  "URL" : "https://www.automationexercise.com/",
+"Login" : {
+  "ValidCredentials" : {
+    "UserName" : "waleed",
+    "Password" : "123",
+    "Email" : "waleed@most.ae"
+  },
+  "InvalidCredentials" : {
+    "InvalidUserName" : {
+      "UserName" : "mohamed",
+      "Password" : "345"
+    },
+    "InvalidPassword" : {
+      "UserName" : "mostafa",
+      "Password" : "678"
+    }
+  }
+},
+  "Login1" : [
+    ["waleed","waleed@most.com"],
+    ["mohammed","mohamed@most.com"],
+    ["mariam","mariam@waleed.com"]
+  ],
+  "Login2" : [
+    ["waleed@most.ae","123"],
+    ["mohamed@most.ae","156"],
+    ["mariam@most.ae","789"]
+  ],
+  "ValidationMessage" : "Your email or password is incorrect!"
+}

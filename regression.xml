@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="regression" parallel="tests">
+    <test name ="chrome">
+        <parameter name="browser" value="Chrome">
+
+        </parameter>
+        <classes>
+            <class name="login.Login1">
+            </class>
+        </classes>
+    </test>
+    <test name ="fireFox">
+        <parameter name="browser" value="FireFox">
+
+        </parameter>
+        <classes>
+
+            <class name="login.Login1">
+
+
+            </class>
+        </classes>
+    </test>
+</suite>
